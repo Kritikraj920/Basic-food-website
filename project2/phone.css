@@ -1,0 +1,54 @@
+/* styling for phone */
+.navbar{
+    flex-direction: column;
+}
+.navbar li a{
+    font-size: 13px;
+}
+.navigation{
+    align-items: center;
+}
+/* Home Section */
+#home{
+    height: 300px;
+}
+#home::before{
+    height: 50%;
+}
+#home p{
+    font-size: 13px;
+    padding: 0px 25px;
+}
+/* Services section */
+#services{
+        flex-direction: column;
+}
+#services .box {
+    
+}
+/* Client section */
+#client-section{
+    flex-wrap: wrap;
+}
+#client-section img{
+    height: 66px;
+    width: 66px;
+}
+#clients::before {
+    height: 25%;
+}
+/* contact section */
+#contact{
+    overflow: hidden;
+}
+.h-primary{
+    font-size: 1rem;
+}
+.btn{
+    padding: 4px 8px;
+    margin: 4px 2px;
+    margin-bottom: 119px;
+}
+.cl{
+    height: 22px;
+}
